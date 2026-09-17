@@ -6,7 +6,9 @@ A\* is a classic *informed search* algorithm from artificial intelligence, used 
 
 Built with **Python**, **Pygame** (grid rendering) embedded inside a **Tkinter** window (controls).
 
-<!-- Screenshot / GIF: docs/demo.gif -->
+![A* searching the maze (left) and the shortest path found (right)](docs/demo.png)
+
+*Left: search in progress (blue = frontier, orange = explored, cyan = current node). Right: the shortest path found.*
 
 ## Features
 
@@ -78,6 +80,7 @@ astar-pathfinding-visualizer/
 ├── mazes/            # Saved mazes (JSON grids)
 │   ├── maze.json     # Default maze loaded at startup
 │   └── maze2.json
+├── docs/demo.png     # README screenshot
 └── requirements.txt
 ```
 
